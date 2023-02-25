@@ -1,0 +1,21 @@
+{
+  "name": "vdanviel/php-qr-code",
+  "type": "project",
+  "homepage": "https://github.com/vdanviel/php-qr-code.git",
+
+  "require":{
+    "chillerlan/php-qrcode": "^4.3"
+  },
+
+  "authors":[{
+    "name": "daniel",
+    "email": "victordn@gmail.com"
+  }],
+
+  "autoload":{
+    "psr-4": {
+      "classes\\": "src/"
+    }
+  }
+
+}
